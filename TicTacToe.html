@@ -14,7 +14,7 @@
         <script>
             function StartGame() {
                 document.turn="X";
-             
+  
                 setMessage(document.turn + " gets to start.");
             }
             
@@ -24,8 +24,8 @@
             }
             
             function nextMove(square){
-                
-                else if(square.innerText==""){
+              
+                if(square.innerText==""){
                 square.innerText=document.turn;
                 switchTurn();
                 }
@@ -51,7 +51,7 @@
                     }
                 
             }
-            
+           
             
         
         </script>
